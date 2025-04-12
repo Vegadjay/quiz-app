@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
             
             <div className="flex mt-4 space-x-3">
-              <a href="https://github.com/vegadjay" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/Vegadjay/quiz-app" target="_blank" rel="noopener noreferrer" 
                  className="text-foreground hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
               </a>

@@ -72,7 +72,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       <main className="flex-1">
         {/* Hero section */}
         <section className="bg-gradient-to-b from-background to-muted py-16 md:py-24">
@@ -84,21 +84,21 @@ const Index = () => {
                     Level Up Your Coding Knowledge
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Master programming concepts through interactive quizzes, focused practice, 
+                    Master programming concepts through interactive quizzes, focused practice,
                     and community discussion. Your coding journey starts here.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-2 min-[400px]:gap-4">
-                  <Button 
-                    size="lg" 
+                  <Button
+                    size="lg"
                     className="animate-fade-in bg-orange-500 hover:bg-orange-600 transform transition-all duration-300 hover:scale-105"
                     onClick={() => scrollToSection('quiz')}
                   >
                     Start a Quiz <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button 
-                    variant="outline" 
-                    size="lg" 
+                  <Button
+                    variant="outline"
+                    size="lg"
                     className="animate-fade-in hover:bg-orange-500/10 hover:border-orange-500 hover:text-orange-500 transform transition-all duration-300 hover:scale-105"
                     onClick={() => scrollToSection('practice')}
                   >
@@ -106,24 +106,24 @@ const Index = () => {
                   </Button>
                 </div>
                 <div className="flex items-center space-x-4 mt-6 text-muted-foreground">
-                  <a href="https://github.com/vegadjay" target="_blank" rel="noopener noreferrer" 
-                     className="hover:text-orange-500 transition-colors">
+                  <a href="https://github.com/Vegadjay/quiz-app" target="_blank" rel="noopener noreferrer"
+                    className="hover:text-orange-500 transition-colors">
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </a>
                   <a href="https://linkdin.com/u/vegadjay" target="_blank" rel="noopener noreferrer"
-                     className="hover:text-orange-500 transition-colors">
+                    className="hover:text-orange-500 transition-colors">
                     <Linkedin className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </a>
                   <a href="https://x.com/JAY_VEGAD_" target="_blank" rel="noopener noreferrer"
-                     className="hover:text-orange-500 transition-colors">
+                    className="hover:text-orange-500 transition-colors">
                     <Twitter className="h-5 w-5" />
                     <span className="sr-only">Twitter</span>
                   </a>
                 </div>
               </div>
-              
+
               <div className="mx-auto lg:ml-auto flex flex-col animate-fade-in">
                 <div className="rounded-xl border-2 border-orange-200 dark:border-orange-900/30 bg-card shadow-xl p-6 relative overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-orange-300/5 z-0"></div>
@@ -136,7 +136,7 @@ const Index = () => {
                         </div>
                       ))}
                     </div>
-                    
+
                     <h3 className="text-lg font-semibold mt-6 mb-4 text-orange-700 dark:text-orange-300">Features</h3>
                     <ul className="space-y-2">
                       <li className="flex items-center text-sm">
@@ -178,11 +178,11 @@ const Index = () => {
                 Boost your programming knowledge with our interactive features designed for effective learning.
               </p>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((feature, index) => (
-                <div 
-                  key={feature.title} 
+                <div
+                  key={feature.title}
                   id={feature.id}
                   ref={feature.ref}
                   className="bg-card border-2 border-orange-200 dark:border-orange-900/30 rounded-xl p-6 transition-all hover:shadow-lg hover:translate-y-[-5px] duration-300 flex flex-col animate-slide-in"

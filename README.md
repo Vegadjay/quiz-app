@@ -61,7 +61,7 @@ CodeQuiz is an interactive web application designed to help developers test and 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/quiz-app.git
+git clone https://github.com/Vegadjay/quiz-app.git
 cd quiz-app
 ```
 
@@ -128,7 +128,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
-Project Link: [https://github.com/yourusername/quiz-app](https://github.com/yourusername/quiz-app)
+Project Link: [https://github.com/Vegadjay/quiz-app](https://github.com/Vegadjay/quiz-app)
 
 ---
 
