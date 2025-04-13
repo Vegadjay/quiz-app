@@ -145,6 +145,12 @@ const QuizPage = () => {
       
       <main className="flex-1 container py-8 px-4">
         <div className="max-w-5xl mx-auto">
+          <div className="mb-6 p-4 bg-orange-100 dark:bg-orange-900/20 rounded-lg border border-orange-200 dark:border-orange-800/30">
+            <p className="text-sm text-center text-orange-800 dark:text-orange-200">
+              📢 <strong>Note:</strong> Currently, questions are available for JavaScript and Java. More languages coming soon!
+            </p>
+          </div>
+
           <h1 className="text-3xl font-bold mb-8 text-center">Quiz Challenge</h1>
           
           {loading ? (
